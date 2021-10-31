@@ -1,4 +1,0 @@
-Student name: Rodrigo Bange
-Student number: 684006
-Student class: IT1B
-URL Student GitHub repository: https://github.com/Stabiliss/WebMarkUpAssessment
