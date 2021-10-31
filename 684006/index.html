@@ -6,6 +6,7 @@
         <meta name="keywords" content="nothing"/>
         <meta name="description" content="This is a page."/>
         <meta name="author" content="Rodrigo Bange"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -16,28 +17,40 @@
                 <h1>FreeWings</h1>
                 <h2>We'll get you there</h2>
             </section>
-        </header>  
+        </header>
         <nav id="navbar">
-            <ul>
-                <li>
+            <ul id="navbar-MenuButtons">
+                <li id="displayMenu">
+                    <a href="#navbar">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li id="hideMenu">
+                    <a href="#hideMenu">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul id="navbar-MenuOptions">
+                <li class="menuButton">
                     <a href="index.html">
                         <i class="fa fa-home" aria-hidden="true"></i>
                         Home
                     </a>                    
                 </li>
-                <li>
+                <li class="menuButton">
                     <a href="bestdestinations.html">
                         <i class="fa fa-plane" aria-hidden="true"></i>
                         Best Destinations
                     </a>                    
                 </li>
-                <li>
+                <li class="menuButton">
                     <a href="tickets.html">
-                        <i class="fa fa-ticket" aria-hidden="true"></i>
+                        <i class="fa fa-tags" aria-hidden="true"></i>
                         Tickets
                     </a>                    
                 </li>
-                <li>
+                <li class="menuButton">
                     <a href="contact.html">
                         <i class="fa fa-info-circle" aria-hidden="true"></i>
                         Contact
@@ -47,7 +60,9 @@
             <!-- Make this navigation into a hamburger menu on mobile -->
         </nav>
         <section id="mainSection">
+            <h4>Your favorite destinations in one place</h4>
             <section id="videoDisplay">
+                <h5>Explore the world, today</h5>
                 <video autoplay loop muted preload="auto">
                     <source src="/media/TravelVideo.mp4" type="video/mp4">
                     <source src="/media/TravelVideo.ogg" type="video/ogg">
@@ -55,28 +70,28 @@
                 </video>
             </section>            
             <section id="articles">
+                <h4>Ideas for your next journey</h4>
                 <article class="destinationArticle">
                     <header>
-                        <h3>Japan (Currently unavailable due to covid)</h3>
+                        <h3>Bali</h3>
                     </header>
                     <p>
-                        Prepare to be wowed by Japan. While Tokyo’s brightly lit skyscrapers will feel familiar, 
-                        the districts of Harajuku and Akihabara show off the country's quirkier side. 
-                        Look out for shops dedicated to video games, manga and anime, plus carts selling bubble tea. 
-                        There’s plenty to do away from the city, too. Admire the iconic Mount Fuji, 
-                        learn about the devastation caused by the atomic bomb that hit Hiroshima, 
-                        and snap pics of Kyoto’s Instagram-worthy temples and waterfalls.
+                        Our escorted Simply Bali tour is packed with memorable moments, but one of the top ones has got to be 
+                        watching a kecak fire dance at a clifftop temple. This Hindu dance includes fire and chanting, and often 
+                        has up to 150 performers. The traditional dance is almost 100 years old and shows a battle scene between 
+                        a king and a prince. And the settings are just as good as the actual show. You’ll watch the fire dance at 
+                        the dramatic Uluwatu sea temple, set on a cliff above the sea.
                     </p>
                     <!-- Photo of destination with copyright info-->
                     <!-- Image alignment = PC:FloatRight, Tablet:FloatLeft, Mobile:Under the article and image is centred with margin-->
-                    <a href="https://www.tui.co.uk/holidays/escorted-tours/destinations/japan">
+                    <a href="https://www.tui.co.uk/destinations/asia/indonesia/bali/holidays-bali.html">
                         <figure>
-                            <img src="images/Destination_Photo_Japan.jpg" title="Photo of Japan" alt="A photo of a temple towering over the water in Japan.">
-                            <figcaption>&copy; 2021 TUI - The beauty of Japan</figcaption>
+                            <img src="images/Destination_Photo_Bali.jpg" title="Photo of Bali" alt="A photo of a temple towering over the water in Bali.">
+                            <figcaption>&copy; 2021 TUI - The beauty of Bali</figcaption>
                         </figure>                    
                     </a>                
                     <footer>                    
-                    <a href="https://www.tui.co.uk/holidays/escorted-tours/destinations/japan" class="infoButton">More info</a>
+                    <a href="https://www.tui.co.uk/destinations/asia/indonesia/bali/holidays-bali.html" class="infoButton">More info</a>
                     </footer>
                 </article>
                 <article class="destinationArticle">
@@ -131,29 +146,29 @@
             </section>
         </section>        
         <aside id="asideTrends">
-            <!-- Aside is fixed, cant grow or shrink-->
-            <ol>
-                <li>
-                    <strong>Scandinavia</strong>
-                    <p><em>If you want extravagance, it’s got to be Scandinavia.</em></p>
-                </li>
-                <li>
-                    <strong>Australia & New Zealand</strong>
-                    <p><em>Breath-taking landscapes, unique wildlife, delicious cuisine and incredible cultures.</em></p>
-                </li>
-                <li>
-                    <strong>Costa Rica</strong>
-                    <p><em>Rejuvenate your mind, body and soul in an eco-friendly paradise.</em></p>
-                </li>
-                <li>
-                    <strong>Greece</strong>
-                    <p><em>From gorgeous islands to the romantic cities and ancient history.</em></p>
-                </li>
-                <li>
-                    <strong>Georgia</strong>
-                    <p><em>Gorgeous landscapes, ancient monasteries and wineries to the indulgent cuisine.</em></p>
-                </li>
-            </ol>
+                <!-- Aside is fixed, cant grow or shrink-->
+                <ol>
+                    <li>
+                        <strong>Scandinavia</strong>
+                        <p><em>If you want extravagance, it’s got to be Scandinavia.</em></p>
+                    </li>
+                    <li>
+                        <strong>Australia & New Zealand</strong>
+                        <p><em>Breath-taking landscapes, unique wildlife, delicious cuisine and incredible cultures.</em></p>
+                    </li>
+                    <li>
+                        <strong>Costa Rica</strong>
+                        <p><em>Rejuvenate your mind, body and soul in an eco-friendly paradise.</em></p>
+                    </li>
+                    <li>
+                        <strong>Greece</strong>
+                        <p><em>From gorgeous islands to the romantic cities and ancient history.</em></p>
+                    </li>
+                    <li>
+                        <strong>Georgia</strong>
+                        <p><em>Gorgeous landscapes, ancient monasteries and wineries to the indulgent cuisine.</em></p>
+                    </li>
+                </ol>
         </aside>        
         <section id="cookieStatement">            
             <h3>Cookie Statement</h3>
