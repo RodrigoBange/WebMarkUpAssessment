@@ -3,19 +3,24 @@
     <head>
         <title>Besttrips offers you the best trips!</title>
         <meta charset="utf-8"/>
-        <meta name="keywords" content="nothing"/>
-        <meta name="description" content="This is a page."/>
+        <meta name="keywords" content="Traveling Destinations Cheap Tickets Vacation Holidays Sunny Cold Summer Winter"/>
+        <meta name="description" content="Looking for cheap flight destinations? FreeWings helps you find flights to your most wanted vacation destinations! Warm or cold, we can get you there!"/>
         <meta name="author" content="Rodrigo Bange"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
     </head>
     <body id="bodyIndex">
         <header id="mainHeader">
             <section id="headerText">
                 <h1>FreeWings</h1>
                 <h2>We'll get you there</h2>
+                <img id="logo" src="images/FreeWings_Logo.png" title="FreeWings Logo" alt="Made my Rodrigo Bange">
             </section>
         </header>
         <nav id="navbar">
@@ -59,9 +64,9 @@
             </ul>
             <!-- Make this navigation into a hamburger menu on mobile -->
         </nav>
-        <section id="mainSection">
-            <h3>Contact Form</h3>
-            <form action="www.google.com">
+        <section id="mainSectionContact">
+            <h3 id="contactFormTitle">Contact Form</h3>
+            <form id="contactForm" action="mailto:684006@student.inholland.nl">
                 <fieldset>
                     <legend>Your information:</legend>
                     <label for="name">Your name</label>
@@ -77,31 +82,35 @@
                 </fieldset>                
             </form>
         </section>
-        <aside id="asideTrends">
-            <!-- Aside is fixed, cant grow or shrink-->
-            <ol>
-                <li>
-                    <strong>Scandinavia</strong>
-                    <p><em>If you want extravagance, it’s got to be Scandinavia.</em></p>
-                </li>
-                <li>
-                    <strong>Australia & New Zealand</strong>
-                    <p><em>Breath-taking landscapes, unique wildlife, delicious cuisine and incredible cultures.</em></p>
-                </li>
-                <li>
-                    <strong>Costa Rica</strong>
-                    <p><em>Rejuvenate your mind, body and soul in an eco-friendly paradise.</em></p>
-                </li>
-                <li>
-                    <strong>Greece</strong>
-                    <p><em>From gorgeous islands to the romantic cities and ancient history.</em></p>
-                </li>
-                <li>
-                    <strong>Georgia</strong>
-                    <p><em>Gorgeous landscapes, ancient monasteries and wineries to the indulgent cuisine.</em></p>
-                </li>
-            </ol>
-    </aside>        
+        <aside id="asideProductsContact">
+            <article class="productArticle1Contact productArticle">
+              <h5>Bali</h5>
+                <a href="https://www.tui.co.uk/destinations/asia/indonesia/bali/holidays-bali.html">
+                    <figure class="productPhoto">
+                        <img src="images/Destination_Photo_Bali.jpg" title="Photo of Bali" alt="A photo of a temple towering over the water in Bali.">
+                        <figcaption>&copy; 2021 TUI - The beauty of Bali</figcaption>
+                    </figure>                    
+                </a> 
+            </article>
+            <article class="productArticle2Contact productArticle">
+              <h5>Jamaica</h5>
+                <a href="https://www.tui.co.uk/destinations/caribbean/jamaica/holidays-jamaica.html">
+                    <figure class="productPhoto">
+                        <img src="images/Destination_Photo_Jamaica.jpg" title="Photo of Jamaica" alt="A photo of people diving into the water in Jamaica.">
+                        <figcaption>&copy; 2021 TUI - The beauty of Jamaica</figcaption>
+                    </figure>                    
+                </a> 
+            </article>
+            <article class="productArticle3Contact productArticle">
+              <h5>Morocco</h5>
+                <a href="https://www.tui.co.uk/destinations/africa/morocco/holidays-morocco.html">
+                    <figure class="productPhoto">
+                        <img src="images/Destination_Photo_Morocco.jpg" title="Photo of Morocco" alt="A photo of the beautiful interior of a building in Morroco.">
+                        <figcaption>&copy; 2021 TUI - The beauty of Morocco</figcaption>
+                    </figure>                    
+                </a> 
+            </article>
+        </aside>    
     <section id="cookieStatement">            
         <h3>Cookie Statement</h3>
         <p>By using this website you agree to not eat the cookies.</p>
