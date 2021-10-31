@@ -625,8 +625,8 @@ html, body {
     }
 }
 
-/** For Tablet displays (481px - 1179px) **/
-@media only screen and (max-width: 1179px) {
+/** For Tablet displays (481px - 1279px) **/
+@media only screen and (max-width: 1279px) {
 
     /** ARTICLES GRID **/
     #articlesGrid { 
